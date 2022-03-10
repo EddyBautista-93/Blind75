@@ -1,0 +1,16 @@
+D:\source\Blind75\bin\Debug\net5.0\Blind75.exe
+D:\source\Blind75\bin\Debug\net5.0\Blind75.deps.json
+D:\source\Blind75\bin\Debug\net5.0\Blind75.runtimeconfig.json
+D:\source\Blind75\bin\Debug\net5.0\Blind75.runtimeconfig.dev.json
+D:\source\Blind75\bin\Debug\net5.0\Blind75.dll
+D:\source\Blind75\bin\Debug\net5.0\ref\Blind75.dll
+D:\source\Blind75\bin\Debug\net5.0\Blind75.pdb
+D:\source\Blind75\obj\Debug\net5.0\Blind75.csproj.AssemblyReference.cache
+D:\source\Blind75\obj\Debug\net5.0\Blind75.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\Blind75\obj\Debug\net5.0\Blind75.AssemblyInfoInputs.cache
+D:\source\Blind75\obj\Debug\net5.0\Blind75.AssemblyInfo.cs
+D:\source\Blind75\obj\Debug\net5.0\Blind75.csproj.CoreCompileInputs.cache
+D:\source\Blind75\obj\Debug\net5.0\Blind75.dll
+D:\source\Blind75\obj\Debug\net5.0\ref\Blind75.dll
+D:\source\Blind75\obj\Debug\net5.0\Blind75.pdb
+D:\source\Blind75\obj\Debug\net5.0\Blind75.genruntimeconfig.cache
