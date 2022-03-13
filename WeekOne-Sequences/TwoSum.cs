@@ -32,7 +32,7 @@ public class TwoSum
             int diff = target - (int)nums[i];
             if (indexAndNum.ContainsValue(diff))
             {
-                
+
                 int[] returnIndices = { indexAndNum.FirstOrDefault(x => x.Value == diff).Key, i };
                 return returnIndices;
             }
@@ -43,10 +43,5 @@ public class TwoSum
             }
         }
         return new int[] { 0, 0 };
-    }
-    public static void Main(string[] args)
-    {
-        int[] testArr = new int[] { 2, 7, 11, 15 };
-        TwoSumQ(testArr, 9);
     }
 }
