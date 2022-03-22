@@ -63,17 +63,17 @@ public class StacksNotes
         return outPut;
     }
 
-    public static void Main(string[] args)
-    {
-        Console.WriteLine("Enter a string:");
-        string inputString = Console.ReadLine();
-        // Use this to see execution time.
-        var watch = new System.Diagnostics.Stopwatch();
-        watch.Start();
-        string outputReverseString = ReverseAString(inputString);
-        watch.Stop();
-        Console.WriteLine("\nReversed string is :" + outputReverseString);
-        Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms");
-        Console.Read();
-    }
+    // public static void Main(string[] args)
+    // {
+    //     Console.WriteLine("Enter a string:");
+    //     string inputString = Console.ReadLine();
+    //     // Use this to see execution time.
+    //     var watch = new System.Diagnostics.Stopwatch();
+    //     watch.Start();
+    //     string outputReverseString = ReverseAString(inputString);
+    //     watch.Stop();
+    //     Console.WriteLine("\nReversed string is :" + outputReverseString);
+    //     Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms");
+    //     Console.Read();
+    // }
 }

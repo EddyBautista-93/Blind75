@@ -19,25 +19,31 @@ public class ProdArraySum
     */
     public static int[] ProductExceptSelf(int[] nums)
     {
-        List<int> sumArr = new List<int>();
-        int indexCounter = 0;
-        int sum = 0;
+        if(nums == null || nums.Length == 0)
+            return nums;
+
+        int[] returnArray = new int[nums.Length];
+        int prev = 1;
         for (var i = 0; i < nums.Length; i++)
-        { 
-            for (var j = 0; j < nums.Length; j++)
-            {
-                if(nums[i] != indexCounter)
-                {
-                    sum += nums[i] * nums[j];
-                }
-                
-            }
-            sumArr.Add(sum);
-            indexCounter++;
-            sum = 0;
+        {
+            returnArray[i] = prev;
+            prev *= nums[i];
         }
 
-        return sumArr.ToArray();
+        prev = 1;
+        for (int i = nums.Length - 1; i >= 0; i--)
+        {
+            returnArray[i] *= prev;
+            prev *= nums[i];
+        }
+
+        return returnArray;
+
+    }
+    public static void Main(string[] args)
+    {
+        int[] testArray = new int[]{1,2,3,4};
+        ProductExceptSelf(testArray);
     }
 
 }
