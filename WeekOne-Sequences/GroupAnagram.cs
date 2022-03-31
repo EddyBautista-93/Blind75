@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using System.Collections.Generic;
 
 public class GroupAnagram
 {
@@ -27,10 +28,28 @@ public class GroupAnagram
     */
     public static void GroupAnagrams(string[] strs) 
     {
+        int indexVal = 0;
+        Dictionary<int, string> sortedWordsDict = new Dictionary<int, string>();
+        // sort all the words to find matching pairs for anagrams and save the index to return the word. 
         foreach(var x in strs)
         {
-            Console.WriteLine(string.Concat(x.OrderBy(x => x)));
+            sortedWordsDict.Add(indexVal, string.Concat(x.OrderBy(x => x)));
+            indexVal++;
         }
+        //  foreach(KeyValuePair<int, string> ele1 in sortedWordsDict)
+        //   {
+        //       Console.WriteLine("{0} and {1}",
+        //                 ele1.Key, ele1.Value);
+        //   }
+
+        for (var i = 0; i < strs.Length; i++)
+        {
+            for (var j = i + 1; j < strs.Length - 1; j++)
+            {
+                
+            }
+        }
+
     }
 
     public static void Main(string[] args)
