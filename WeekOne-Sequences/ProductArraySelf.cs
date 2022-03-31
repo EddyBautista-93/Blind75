@@ -40,10 +40,10 @@ public class ProdArraySum
         return returnArray;
 
     }
-    public static void Main(string[] args)
-    {
-        int[] testArray = new int[]{1,2,3,4};
-        ProductExceptSelf(testArray);
-    }
+    // public static void Main(string[] args)
+    // {
+    //     int[] testArray = new int[]{1,2,3,4};
+    //     ProductExceptSelf(testArray);
+    // // }
 
 }
