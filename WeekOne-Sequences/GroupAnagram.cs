@@ -52,10 +52,10 @@ public class GroupAnagram
 
     }
 
-    public static void Main(string[] args)
-    {
-        string[] inputArray = {"eat","tea","tan","ate","nat","bat"};
-        GroupAnagrams(inputArray);
+    // public static void Main(string[] args)
+    // {
+    //     string[] inputArray = {"eat","tea","tan","ate","nat","bat"};
+    //     GroupAnagrams(inputArray);
         
-    }
+    // }
 }
