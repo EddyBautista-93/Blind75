@@ -42,6 +42,28 @@ public class LinkedListNotes
     
     
     */
+
+    public static void Main(string[] args)
+    {
+        LinkedList<String> myList = new LinkedList<string>();
+
+        // adding elements to the LinkedList
+        myList.AddLast("Zoya");
+        myList.AddLast("Shilpa");
+        myList.AddLast("Rohit");
+        myList.AddLast("Rohan");
+        myList.AddLast("Juhi");
+        myList.AddLast("Zoya");
+
+        Console.WriteLine("Best students of XYZ University:");
+        
+        foreach (var str in myList)
+        {
+            Console.WriteLine(str);
+            
+        }
+
+    }
     
     
 }
